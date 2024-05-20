@@ -1,0 +1,82 @@
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    font-family: Inter;
+}
+
+main {
+    background-color: hsl(0, 0%, 12%);
+    width: 300px;
+    margin: auto;    
+    border-radius: 10px;
+}
+
+img {
+border-radius: 50%;
+width: 20%;
+}
+
+header {
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+h1 {
+    font-size: 1.4em;
+    color: hsl(0, 0%, 100%);
+    margin-top: 15px;
+}
+
+.location {
+    margin-top: 7px;
+    font-size: 0.8em;
+    color:  hsl(75, 94%, 57%);
+}
+
+header div p {
+margin-top: 17px;
+font-size: 0.7em;
+margin-bottom: 15px;
+color: hsl(0, 0%, 70%);
+}
+
+.social_medias {
+    width: 250px;
+    margin: auto;
+}
+
+.social_medias p {
+    text-align: center;
+    background-color: hsl(0, 0%, 20%);
+    padding: 13px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    color: hsl(0, 0%, 93%);;
+    font-size: 0.7em;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.social_medias p:hover {
+background-color: hsl(75, 94%, 57%);
+color: hsl(0, 0%, 8%);
+}
+
+.social_medias p:focus {
+background-color: hsl(75, 94%, 57%);
+color: hsl(0, 0%, 8%);
+}
+
+.social_medias p:last-of-type {
+margin-bottom: 30px;
+}
+
+/* https://validator.w3.org/ To check if html doc is valid */
